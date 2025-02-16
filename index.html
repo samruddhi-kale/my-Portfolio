@@ -238,8 +238,11 @@
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
-
-
+@media (max-width: 991.98px) {
+  .slidetxt {
+    position: relative !important;
+}
+}
     </style>
 
   </head>
@@ -285,13 +288,13 @@
         <div class="slider-item ">
           <div class="overlay"></div>
           <div class="container">
-            <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+            <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end " data-scrollax-parent="true">
               <div class="one-third  my-img">
                 <img src="images/pme.png" alt="">
                 <!-- <div class="overlay"></div> -->
                 <div class="orbit-ring"></div>
               </div>
-              <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+              <div class="one-forth d-flex  align-items-center ftco-animate slidetxt" data-scrollax=" properties: { translateY: '70%' }">
                 <div class="text">
                   <span class="subheading">Hello!</span>
                   <h1 class="mb-4 mt-3">I'm
